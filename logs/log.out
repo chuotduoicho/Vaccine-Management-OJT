@@ -1,0 +1,165 @@
+[INFO ] 2021-08-04 13:44:07.933 [main] Logging - @BeforeAll
+[INFO ] 2021-08-04 13:44:08.001 [main] Logging - @BeforeEach
+[INFO ] 2021-08-04 13:44:08.232 [main] Version - HHH000412: Hibernate ORM core version 5.5.0.Final
+[INFO ] 2021-08-04 13:44:09.300 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[WARN ] 2021-08-04 13:44:09.469 [main] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO ] 2021-08-04 13:44:09.523 [main] pooling - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=Vaccination]
+[INFO ] 2021-08-04 13:44:09.524 [main] pooling - HHH10001001: Connection properties: {password=****, user=sa}
+[INFO ] 2021-08-04 13:44:09.540 [main] pooling - HHH10001003: Autocommit mode: false
+[INFO ] 2021-08-04 13:44:09.544 [main] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+[INFO ] 2021-08-04 13:44:10.049 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO ] 2021-08-04 13:44:12.620 [main] access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@26275b46] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO ] 2021-08-04 13:44:15.487 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-08-04 13:44:15.724 [main] Logging - @AfterEach
+[INFO ] 2021-08-04 13:44:15.809 [main] Logging - @AfterAll
+[INFO ] 2021-08-11 22:01:00.857 [main] Version - HHH000412: Hibernate ORM core version 5.5.0.Final
+[INFO ] 2021-08-11 22:01:01.669 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[WARN ] 2021-08-11 22:01:01.869 [main] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO ] 2021-08-11 22:01:01.976 [main] pooling - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=Vaccination]
+[INFO ] 2021-08-11 22:01:01.977 [main] pooling - HHH10001001: Connection properties: {password=****, user=sa}
+[INFO ] 2021-08-11 22:01:01.978 [main] pooling - HHH10001003: Autocommit mode: false
+[INFO ] 2021-08-11 22:01:01.984 [main] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+[INFO ] 2021-08-11 22:01:02.500 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO ] 2021-08-11 22:01:04.315 [main] access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@134a8ead] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO ] 2021-08-11 22:01:06.165 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-08-11 22:01:06.455 [main] Logging - Read Successfully!!!
+[INFO ] 2021-08-11 22:01:06.460 [main] Logging - Test Find All Done!
+[INFO ] 2021-08-11 22:22:38.590 [main] Version - HHH000412: Hibernate ORM core version 5.5.0.Final
+[INFO ] 2021-08-11 22:22:39.360 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[WARN ] 2021-08-11 22:22:39.524 [main] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO ] 2021-08-11 22:22:39.573 [main] pooling - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=Vaccination]
+[INFO ] 2021-08-11 22:22:39.574 [main] pooling - HHH10001001: Connection properties: {password=****, user=sa}
+[INFO ] 2021-08-11 22:22:39.601 [main] pooling - HHH10001003: Autocommit mode: false
+[INFO ] 2021-08-11 22:22:39.604 [main] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+[INFO ] 2021-08-11 22:22:40.037 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO ] 2021-08-11 22:22:41.454 [main] access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@134a8ead] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO ] 2021-08-11 22:22:42.561 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-08-11 22:22:42.838 [main] Logging - Read Successfully!!!
+[INFO ] 2021-08-11 22:22:42.858 [main] Logging - Actual Employee null? true
+[INFO ] 2021-08-11 22:22:42.858 [main] Logging - Test Find By ID Success!
+[INFO ] 2021-08-11 22:24:12.313 [main] Version - HHH000412: Hibernate ORM core version 5.5.0.Final
+[INFO ] 2021-08-11 22:24:12.929 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[WARN ] 2021-08-11 22:24:13.067 [main] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO ] 2021-08-11 22:24:13.108 [main] pooling - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=Vaccination]
+[INFO ] 2021-08-11 22:24:13.109 [main] pooling - HHH10001001: Connection properties: {password=****, user=sa}
+[INFO ] 2021-08-11 22:24:13.110 [main] pooling - HHH10001003: Autocommit mode: false
+[INFO ] 2021-08-11 22:24:13.113 [main] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+[INFO ] 2021-08-11 22:24:13.530 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO ] 2021-08-11 22:24:14.650 [main] access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@134a8ead] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO ] 2021-08-11 22:24:15.265 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-08-11 22:24:15.479 [main] Logging - Read Successfully!!!
+[INFO ] 2021-08-15 21:04:21.924 [main] Version - HHH000412: Hibernate ORM core version 5.5.0.Final
+[INFO ] 2021-08-15 21:04:22.835 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[WARN ] 2021-08-15 21:04:23.028 [main] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO ] 2021-08-15 21:04:23.109 [main] pooling - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=Vaccination]
+[INFO ] 2021-08-15 21:04:23.110 [main] pooling - HHH10001001: Connection properties: {password=****, user=sa}
+[INFO ] 2021-08-15 21:04:23.111 [main] pooling - HHH10001003: Autocommit mode: false
+[INFO ] 2021-08-15 21:04:23.114 [main] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+[INFO ] 2021-08-15 21:04:23.636 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO ] 2021-08-15 21:04:25.087 [main] access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@134a8ead] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO ] 2021-08-15 21:04:26.340 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-08-15 21:04:26.622 [main] Logging - Read Successfully!!!
+[INFO ] 2021-08-15 21:04:26.654 [main] Logging - Login Successfully!!!
+[INFO ] 2021-08-15 21:04:26.658 [main] Logging - Logged in?true
+[INFO ] 2021-08-15 21:04:26.658 [main] Logging - Test Login Done!
+[INFO ] 2021-08-15 21:07:58.967 [main] Version - HHH000412: Hibernate ORM core version 5.5.0.Final
+[INFO ] 2021-08-15 21:07:59.586 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[WARN ] 2021-08-15 21:07:59.705 [main] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO ] 2021-08-15 21:07:59.737 [main] pooling - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=Vaccination]
+[INFO ] 2021-08-15 21:07:59.738 [main] pooling - HHH10001001: Connection properties: {password=****, user=sa}
+[INFO ] 2021-08-15 21:07:59.739 [main] pooling - HHH10001003: Autocommit mode: false
+[INFO ] 2021-08-15 21:07:59.742 [main] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+[INFO ] 2021-08-15 21:08:00.145 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO ] 2021-08-15 21:08:01.222 [main] access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@134a8ead] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO ] 2021-08-15 21:08:02.020 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-08-15 21:08:02.197 [main] Logging - Read Successfully!!!
+[INFO ] 2021-08-15 21:08:02.205 [main] Logging - Logged in? false
+[INFO ] 2021-08-15 21:08:02.205 [main] Logging - Test Login Done!
+[INFO ] 2021-08-15 21:11:56.717 [main] Version - HHH000412: Hibernate ORM core version 5.5.0.Final
+[INFO ] 2021-08-15 21:11:57.332 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[WARN ] 2021-08-15 21:11:57.458 [main] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO ] 2021-08-15 21:11:57.497 [main] pooling - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=Vaccination]
+[INFO ] 2021-08-15 21:11:57.497 [main] pooling - HHH10001001: Connection properties: {password=****, user=sa}
+[INFO ] 2021-08-15 21:11:57.498 [main] pooling - HHH10001003: Autocommit mode: false
+[INFO ] 2021-08-15 21:11:57.501 [main] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+[INFO ] 2021-08-15 21:11:57.920 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO ] 2021-08-15 21:11:59.005 [main] access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@134a8ead] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO ] 2021-08-15 21:11:59.662 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[ERROR] 2021-08-15 21:11:59.830 [main] Logging - Read Failed!!!
+[ERROR] 2021-08-15 21:11:59.832 [main] Logging - Reset Password Failed!!!
+[INFO ] 2021-08-15 21:16:24.867 [main] Version - HHH000412: Hibernate ORM core version 5.5.0.Final
+[INFO ] 2021-08-15 21:16:25.502 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[WARN ] 2021-08-15 21:16:25.634 [main] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO ] 2021-08-15 21:16:25.676 [main] pooling - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=Vaccination]
+[INFO ] 2021-08-15 21:16:25.678 [main] pooling - HHH10001001: Connection properties: {password=****, user=sa}
+[INFO ] 2021-08-15 21:16:25.679 [main] pooling - HHH10001003: Autocommit mode: false
+[INFO ] 2021-08-15 21:16:25.682 [main] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+[INFO ] 2021-08-15 21:16:26.084 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO ] 2021-08-15 21:16:27.111 [main] access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1d60059f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO ] 2021-08-15 21:16:27.776 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[ERROR] 2021-08-15 21:16:27.939 [main] Logging - Read Failed!!!
+[ERROR] 2021-08-15 21:16:27.940 [main] Logging - Reset Password Failed!!!
+[INFO ] 2021-08-15 21:18:15.820 [main] Version - HHH000412: Hibernate ORM core version 5.5.0.Final
+[INFO ] 2021-08-15 21:18:16.471 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[WARN ] 2021-08-15 21:18:16.588 [main] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO ] 2021-08-15 21:18:16.635 [main] pooling - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=Vaccination]
+[INFO ] 2021-08-15 21:18:16.636 [main] pooling - HHH10001001: Connection properties: {password=****, user=sa}
+[INFO ] 2021-08-15 21:18:16.637 [main] pooling - HHH10001003: Autocommit mode: false
+[INFO ] 2021-08-15 21:18:16.640 [main] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+[INFO ] 2021-08-15 21:18:17.013 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO ] 2021-08-15 21:18:18.163 [main] access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@134a8ead] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO ] 2021-08-15 21:18:18.908 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-08-15 21:18:19.090 [main] Logging - Read Successfully!!!
+[INFO ] 2021-08-15 21:18:19.142 [main] Logging - Actual List Result: 4
+[INFO ] 2021-08-15 21:18:19.145 [main] Logging - Actual List null? false
+[INFO ] 2021-08-15 21:18:19.146 [main] Logging - Test Find All Success!
+[INFO ] 2021-08-15 21:23:10.080 [main] Version - HHH000412: Hibernate ORM core version 5.5.0.Final
+[INFO ] 2021-08-15 21:23:10.678 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[WARN ] 2021-08-15 21:23:10.792 [main] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO ] 2021-08-15 21:23:10.833 [main] pooling - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=Vaccination]
+[INFO ] 2021-08-15 21:23:10.834 [main] pooling - HHH10001001: Connection properties: {password=****, user=sa}
+[INFO ] 2021-08-15 21:23:10.834 [main] pooling - HHH10001003: Autocommit mode: false
+[INFO ] 2021-08-15 21:23:10.837 [main] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+[INFO ] 2021-08-15 21:23:11.167 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO ] 2021-08-15 21:23:12.176 [main] access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@134a8ead] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO ] 2021-08-15 21:23:12.862 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-08-15 21:23:13.052 [main] Logging - Read Successfully!!!
+[INFO ] 2021-08-15 21:23:13.059 [main] Logging - Account not null? true
+[INFO ] 2021-08-15 21:23:13.060 [main] Logging - Test Find By Username Done!!!
+[INFO ] 2021-08-15 21:24:15.612 [main] Version - HHH000412: Hibernate ORM core version 5.5.0.Final
+[INFO ] 2021-08-15 21:24:16.490 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[WARN ] 2021-08-15 21:24:16.648 [main] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO ] 2021-08-15 21:24:16.694 [main] pooling - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=Vaccination]
+[INFO ] 2021-08-15 21:24:16.695 [main] pooling - HHH10001001: Connection properties: {password=****, user=sa}
+[INFO ] 2021-08-15 21:24:16.695 [main] pooling - HHH10001003: Autocommit mode: false
+[INFO ] 2021-08-15 21:24:16.698 [main] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+[INFO ] 2021-08-15 21:24:17.119 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO ] 2021-08-15 21:24:18.370 [main] access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@134a8ead] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO ] 2021-08-15 21:24:19.040 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-08-15 21:24:19.272 [main] Logging - Read Successfully!!!
+[INFO ] 2021-08-15 21:24:19.285 [main] Logging - Account not null? false
+[INFO ] 2021-08-15 21:24:19.285 [main] Logging - Test Find By Username Done!!!
+[INFO ] 2021-08-15 21:24:58.467 [main] Version - HHH000412: Hibernate ORM core version 5.5.0.Final
+[INFO ] 2021-08-15 21:24:59.045 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[WARN ] 2021-08-15 21:24:59.180 [main] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO ] 2021-08-15 21:24:59.214 [main] pooling - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=Vaccination]
+[INFO ] 2021-08-15 21:24:59.215 [main] pooling - HHH10001001: Connection properties: {password=****, user=sa}
+[INFO ] 2021-08-15 21:24:59.215 [main] pooling - HHH10001003: Autocommit mode: false
+[INFO ] 2021-08-15 21:24:59.218 [main] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+[INFO ] 2021-08-15 21:24:59.549 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO ] 2021-08-15 21:25:00.565 [main] access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@134a8ead] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO ] 2021-08-15 21:25:01.170 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[ERROR] 2021-08-15 21:25:01.340 [main] Logging - Read Failed!!!
+[ERROR] 2021-08-15 21:25:01.341 [main] Logging - Reset Password Failed!!!
+[INFO ] 2021-08-15 21:26:35.279 [main] Version - HHH000412: Hibernate ORM core version 5.5.0.Final
+[INFO ] 2021-08-15 21:26:35.994 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[WARN ] 2021-08-15 21:26:36.110 [main] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO ] 2021-08-15 21:26:36.149 [main] pooling - HHH10001005: using driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] at URL [jdbc:sqlserver://localhost:1433;databaseName=Vaccination]
+[INFO ] 2021-08-15 21:26:36.150 [main] pooling - HHH10001001: Connection properties: {password=****, user=sa}
+[INFO ] 2021-08-15 21:26:36.150 [main] pooling - HHH10001003: Autocommit mode: false
+[INFO ] 2021-08-15 21:26:36.153 [main] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+[INFO ] 2021-08-15 21:26:36.575 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+[INFO ] 2021-08-15 21:26:37.637 [main] access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@134a8ead] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO ] 2021-08-15 21:26:38.232 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[ERROR] 2021-08-15 21:26:38.411 [main] Logging - Read Failed!!!
+[ERROR] 2021-08-15 21:26:38.413 [main] Logging - Reset Password Failed!!!
